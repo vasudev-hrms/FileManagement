@@ -1,1 +1,1 @@
-{"content-type":"NewType","acl":{"read":"nobody","write":"nobody","execute":"authenticated"}}
+{"content-type":"NewTypeDropdownFromGitHubFile","acl":{"read":"nobody","write":"nobody","execute":"authenticated"}}

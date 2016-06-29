@@ -1,0 +1,6 @@
+ var my = require("./folder1/folder2/folder3/folder4/CalledFunction");
+var my2 = require("/folder1/folder2/folder3/folder4/CalledFunction");
+var my3 = require("folder1/folder2/folder3/folder4/CalledFunction");
+var my4 = require("/folder1/ggg/../folder2/folder3/folder4/CalledFunction");
+
+return my.fun() + "  |  " + my2.fun() + "  |  " + my3.fun()+ "  |  " + my4.fun();
